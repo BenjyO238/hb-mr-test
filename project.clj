@@ -8,14 +8,10 @@
 		 [cascalog/cascalog-core "2.0.0"]
 		 [cascalog "2.0.0"]
 	         [hbase.cascalog "0.2.1-SNAPSHOT"]
+                 [clj-time "0.6.0"]
 		 [org.slf4j/slf4j-api "1.7.2"]]
   :profiles {:dev {:dependencies [[org.apache.hadoop/hadoop-core "1.1.2"]]}}
   :repositories [["conjars.org" "http://conjars.org/repo"]]
   :jvm-opt ["-Xms768m" "-Xmx768m"]
-  :main hbase-mr-test.core  
+  :main hbase-mr-test.core
  )
-
-
-
-
-
